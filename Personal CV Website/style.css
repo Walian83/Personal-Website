@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+/*
+@media (max-width: 890px){
+    .top-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .middle-container{
+        text-align: center;
+    }
+}
+*/
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+hr{
+    max-width: 1200px;
+}
+
+/*Hero Section*/
+
+#hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 10px auto 40px;
+}
+
+.hero-text{
+    flex: 1;
+    font-size: 1.2rem;
+}
+
+.hero-photo{
+    flex: 1;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.hero-text h2 {
+    font-size: 1.4rem;
+    color: gray;
+}
+
+.pfp{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0% 60%;
+}
+
+/*Skills Section*/
+
+#skills-container{
+    max-width: 1200px;
+    margin: 40px auto 200px;
+}
+
+.skills-grid{
+    display: grid;
+    background-color: lightgray;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.skill-item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#contact-container{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Footer Section */
+
+#footer{
+    background-color: seagreen;
+    margin-top: 250px;
+    text-align: center;
+    padding: 50px 0 20px;
+}
+
+.footer-item{
+    margin: 0 20px;
+}
+
+.copyright{
+    padding: 20px 0;
+}
