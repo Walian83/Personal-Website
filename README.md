@@ -13,5 +13,5 @@ A personal CV website that's currently in progress, using the skill and knowledg
 
 <p align="center">
 Current progress, uses flexbox and grid: <br/>
-<img src="https://imgur.com/a/UXtg40m" height="80%" width="80%" alt="Personal Website Screenshot"/>
+<img src="https://i.imgur.com/0YbQmgJ.png" height="80%" width="80%" alt="Personal Website Screenshot"/>
 <br />
